@@ -1,0 +1,14 @@
+/* repensive mobile */
+@media all and (max-width : 600px) {
+    /* navbar container */
+    .container .navbar-container .navbar-container_list{
+        display: none;
+    } 
+    
+    .container .navbar-container .navbar-container_icon{
+        display: block;
+    }
+    .container .hero-container{
+        flex-direction: column;
+    }
+}
